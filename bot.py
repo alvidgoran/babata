@@ -56,6 +56,7 @@ def run_bot():
         try:
             signal, price = get_signal()
             
+            
             if signal == 'buy':
                 print(f"\n✅ Señal COMPRA a {price:.2f} USDT")
                 print("⏳ Esperando 30 segundos para verificar...")
